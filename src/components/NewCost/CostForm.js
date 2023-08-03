@@ -47,7 +47,7 @@ const CostForm = (props) => {
     event.preventDefault();
 
     const costData = {
-      name: inputname,
+      description: inputname,
       amount: inputamount,
       date: new Date(inputdate)
     };
