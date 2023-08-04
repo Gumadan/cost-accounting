@@ -16,7 +16,7 @@ const CostList = (props) => {
         description={cost.description}
         amount={cost.amount}
       />
-      ))};
+      ))}
     </ul>
   );
 };
